@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__left img{
+    background-color: #ee4d3d;
+    width: 11.875rem;
+}
+.header__left span{
+    font-size: 1.5rem;
+    color: #222;
+    margin-left: 10px;
+}
+.header__right a{
+    color: #ee4d3d;
+    text-decoration: none;
+}
+.header__right a:hover{
+    text-decoration: underline;
+}
+.main{
+    background-image: url(https://down-vn.img.susercontent.com/file/sg-11134004-7qvd5-lfuyd509f57p08);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(238, 77,45 );
+    margin-top: 20px;
+    position: relative;
+}
+.main__modal{
+    padding: 20px 30px;
+    background-color: white;
+    display: inline-block;
+    width: 430px;
+    min-height: 427px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.main__modal .main__modal--header{
+    max-width: 8.5rem;
+    font-size: 1.25rem;
+    color: #222;
+}
+.main__modal form input{
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ff424f;
+    outline: none;
+    border-radius: 5px;
+}
+.main__modal form button{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border: 1px solid #ee4d3d;
+    background-color: #ee4d3d;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   transition: all .5s;
+}
+.main__modal form button:hover{
+    opacity: 0.5;
+}
+.main__modal--space{
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+}
+.main__modal--space .space{
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+.main__modal--space .space--text{
+    color: #ccc;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: .85rem;
+}
+.modal__social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal__social button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: all .5s;
+}
+.modal__social button:hover{
+    background-color: #ccc;
+}
+.modal__social button p{
+    margin: 0;
+    font-size: .875rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.modal__footer{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+.modal__footer p a{
+    color: #ee4d3d;
+    text-decoration: none;
+}
